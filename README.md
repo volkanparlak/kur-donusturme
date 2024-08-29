@@ -1,3 +1,5 @@
+![Currency Monitor Screenshot](https://i.hizliresim.com/q9o7pnn.png)
+
 Canlı döviz kurları ve piyasa verilerini izlemek için geliştirilmiş bir web uygulamasıdır.
 
 Bu proje, PHP, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir ve TRTHaber'den veri çekerek güncel finansal bilgileri kullanıcıya sunar.
