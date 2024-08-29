@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.currency-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    text-align: center;
+    width: 200px;
+    height: 90px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+.currency-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.currency-card i {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.currency-card h2 {
+    margin: 0;
+    font-size: 0.8em;
+    color: #333;
+}
+
+.value {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 2px 0;
+    color: #333;
+}
+
+.change {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin: 0;
+}
+
+.change.up {
+    color: #4caf50;
+}
+
+.change.down {
+    color: #f44336;
+}
